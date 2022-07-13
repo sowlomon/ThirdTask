@@ -1,0 +1,79 @@
+
+.firstSec{
+  background-image : url("../../../public/images/9q.jpeg");
+  background-size: cover; 
+  background-repeat: no-repeat;
+  height: 130vh;
+
+}
+
+.firstSec > div {
+  padding: 7px;
+}
+
+.firstSec > div:nth-child(2) {
+  position: relative;
+  top: 45%;
+  margin-left: 10%;
+}
+
+.homeText{
+  padding-bottom: 20px;
+  font-size: 30px;
+  width: 400px;
+  color: #ffff;
+}
+
+.firstInput{
+ height: 40px;
+ width: 250px;
+ padding: 5px;
+ border: none;
+}
+.firstButton {
+  height: 40px;
+  width: 100px;
+  color: #ffff;
+  background-color: rgb(248, 193, 54);
+  border: none;
+}
+
+@media (max-width: 830px) {
+
+  .firstSec{
+    height: 100%;
+    background-size: cover;
+  }
+
+  .firstSec div img {
+    width: 50px;
+    margin-left: 5px;
+    
+  }
+  .firstSec > div:nth-child(2){
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 35px;
+    margin-top: 70px;
+  }
+  .homeText{
+    width: 200px;
+    text-align: center;
+    font-size: 30px;
+    text-align: center;
+  }
+  .firstSec > div:nth-child(2) div{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    flex-direction: column;
+  
+  }
+  .firstSec > div:nth-child(2) div button{
+    margin-top: 20px;
+    width: 200px;
+    height: 40px;
+  }
+}

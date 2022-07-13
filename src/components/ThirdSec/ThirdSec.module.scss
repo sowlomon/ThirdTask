@@ -1,0 +1,109 @@
+.thirdSec{
+  background-color: rgb(248, 193, 54);
+  
+}
+  
+.thirdSec > div {
+  display: flex;
+  
+}
+.secondSecText div{
+  padding: 50px;
+}
+
+.secondSecText div i{
+  font-size: 18px;
+  margin-top: 20px;
+  background-color: #ffff;
+  width: 30px;
+  padding: 5px;
+  border-radius: 50%;
+  text-align: center;
+}
+.secondSecText div:nth-child(1) i{
+  color: red;
+}
+.secondSecText div:nth-child(2) i{
+  color: rgb(248, 193, 54);
+}
+.secondSecText div:nth-child(3) i{
+  color: rgb(65, 63, 63);
+}
+.secondSecText div:nth-child(4) i{
+  color:rgb(102, 100, 100);
+}
+
+.secondSecText div:nth-child(1){
+  background-color: red;
+  color: #ffff;
+}
+.secondSecText div:nth-child(2){
+  background-color: rgb(248, 193, 54);
+}
+.secondSecText div:nth-child(3){
+  background-color: rgb(65, 63, 63);
+  color: #ffff;
+}
+.secondSecText div:nth-child(4){
+  background-color:rgb(102, 100, 100);
+  color: #ffff;
+}
+.secondSecText div:nth-child(5){
+  background-color: #ffff;
+  width: 400px;
+}
+.secondSecText div h2{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.secondSecText div h1{
+  font-size: 50px;
+}
+
+.thirdSet{
+  margin-top: 10px;
+}
+.thirdSet i {
+  padding-right: 10px;
+  font-size: 20px;
+}
+
+@media (max-width: 1122px) {
+  .thirdSec > div{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+  }
+
+  .secondSecText div:nth-child(5){
+    display: none;
+  }
+}
+@media (max-width: 830px) { 
+  .secondSecText {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .secondSecText div i{
+    font-size: 18px;
+    margin-top: 50px;
+    background-color: #ffff;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    text-align: center;
+  }
+  
+  .secondSecText > div:nth-child(5){
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .thirdSec > div{
+    display: flex;
+  }
+}

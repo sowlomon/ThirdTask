@@ -1,0 +1,52 @@
+.fifthSec{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color:rgb(46, 46, 46);
+  padding-top: 50px;
+  color: #ffff;
+ 
+}
+
+.div1{
+  display: flex;
+  position: relative;
+  align-items: center;
+  top: 350px;
+  background: red; 
+  height: 100px;
+  justify-content: center;
+  width: 500px;
+  
+}
+
+
+.fifthSec div h1 {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.fifthSec > div:nth-child(2){
+  margin-bottom: 30px;
+}
+
+@media (max-width: 830px) { 
+
+  .div1{
+   display: none;
+   
+  }
+
+  .firstSet{
+    margin-left:0;
+  }
+  
+  .fifthSec  img {
+    width: 150px;
+    height: 200px;
+  }
+
+
+}

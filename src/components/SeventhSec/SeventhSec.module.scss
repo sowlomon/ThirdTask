@@ -1,0 +1,104 @@
+.seventhSec {
+  background: rgb(46, 46, 46);
+  color: #ffff;
+}
+
+
+.mainSet > div:nth-child(1){
+  background: rgb(46, 46, 46);
+}
+
+.mainSet > div:nth-child(2){
+  background: linear-gradient(90deg, rgb(248, 193, 54) 50%, rgb(46, 46, 46) 50%);
+  width: 100%;
+  margin-left: 100px;
+}
+
+.seventhSec > div {
+  display: flex;
+}
+
+
+.finalInput {
+  display: flex;
+  flex-direction: column;
+}
+
+.firstSet{
+  margin-left: 150px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.firstSet > div:nth-child(1) {
+  margin-bottom: 100px;
+}
+.firstSet > div:nth-child(1) h1{
+  margin-bottom: 20px;
+}
+
+.secondSet{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.secondSet > div:nth-child(1) h1{
+  margin-bottom: 20px;
+  
+}
+.finalInput > input{
+  margin-bottom: 20px;
+  padding-left: 10px;
+  height: 40px;
+  width: 400px;
+}
+.finalInput > input:nth-child(3){
+  height: 80px;
+}
+.secondSet > div:nth-child(3) button{
+  height: 40px;
+  width: 100px;
+  background-color:rgb(248, 193, 54);
+  border: 2px solid #ffff;
+  color: #ffff;
+}
+
+.copyTxt {
+  margin-top: 40px;
+  font-size: 15px;
+}
+
+@media (max-width: 830px) {
+  .mainSet {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+
+  .mainSet > div:nth-child(2){
+    background-color: none;
+    width: 0;
+    margin-left:0;
+  }
+
+  .firstSet{
+    margin-left:0;
+  }
+  .finalInput > input{
+    height: 40px;
+    width: 200px;
+  }
+
+  .fifthSec  img {
+    width: 150px;
+    height: 200px;
+  }
+
+}
